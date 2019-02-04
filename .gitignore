@@ -1,0 +1,12 @@
+# Cache files
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Builds
+/build/
+/dist/
+
+# Virtual environment
+venv*/
+.venv*/

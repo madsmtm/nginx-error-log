@@ -1,0 +1,47 @@
+sudo: false
+language: python
+python: 3.6
+
+cache: pip
+
+before_install: pip install flit
+# Use `--deps production` so that we don't install unnecessary dependencies
+install: flit install --deps production --extras test
+script: pytest
+
+jobs:
+  include:
+  - python: 3.6
+  - python: 3.7
+    dist: xenial
+    sudo: required
+  # - python: pypy3.5
+
+  - before_install: skip
+    install: pip install black
+    script: black --check --verbose .
+
+  - stage: deploy
+    name: Github Releases
+    if: tag IS present
+    install: skip
+    script: flit build
+    deploy:
+      provider: releases
+      api_key: $GITHUB_OAUTH_TOKEN
+      file_glob: true
+      file: dist/*
+      skip_cleanup: true
+      on:
+        tags: true
+
+  - stage: deploy
+    name: PyPI
+    if: tag IS present
+    install: skip
+    script: skip
+    deploy:
+      provider: script
+      script: flit publish
+      on:
+        tags: true

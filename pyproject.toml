@@ -1,0 +1,60 @@
+[tool.black]
+line-length = 88
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.pytest_cache
+  | build
+  | dist
+  | \.?venv.*
+)/
+'''
+
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "nginx_log"
+author = "Mads Marquart"
+author-email = "madsmtm@gmail.com"
+home-page = "https://github.com/madsmtm/nginx-log/"
+requires = [
+    "dataclasses",
+]
+description-file = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: Implementation :: CPython",
+    # "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Internet :: Log Analysis",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Logging",
+    "Topic :: System :: Networking",
+    "Topic :: System :: Networking :: Monitoring",
+]
+requires-python = "~=3.6"
+keywords = "Nginx Error Log Parser error_log"
+
+[tool.flit.metadata.urls]
+Repository = "https://github.com/madsmtm/nginx-log/"
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest",
+]
+dev = [
+    "black",
+]
