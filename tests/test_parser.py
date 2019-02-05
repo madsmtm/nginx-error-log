@@ -1,23 +1,15 @@
-from nginx_error_log import parse_line, LogEntry, Level, ParseError
+from nginx_error_log import parse_line, ParseError
 from pytest import mark
-from datetime import datetime
 
 
-def test_parse_line():
+def test_parse_line(line, entry):
+    assert parse_line(line) == entry
+
+
+def test_parse_line_without_cid():
     entry = parse_line("2019/01/23 12:34:56 [info] 1234#5678: Some data")
-    assert entry == LogEntry(
-        timestamp=datetime(2019, 1, 23, 12, 34, 56),
-        level=Level.INFO,
-        message="Some data",
-        pid=1234,
-        tid=5678,
-        cid=None,
-    )
-
-
-def test_parse_line_with_cid():
-    entry = parse_line("2019/01/23 12:34:56 [info] 1234#5678: *90 Some data")
-    assert entry.cid == 90
+    assert entry.cid == None
+    assert entry.message == "Some data"
 
 
 def test_parse_line_removes_message_whitespace():
