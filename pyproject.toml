@@ -54,6 +54,7 @@ Repository = "https://github.com/madsmtm/nginx-error-log/"
 [tool.flit.metadata.requires-extra]
 test = [
     "pytest",
+    "pytest-raises",
 ]
 dev = [
     "black",
