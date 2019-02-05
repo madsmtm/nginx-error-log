@@ -1,2 +1,2 @@
 def test_import():
-    import nginx_log
+    import nginx_error_log

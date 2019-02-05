@@ -16,10 +16,10 @@ requires = ["flit"]
 build-backend = "flit.buildapi"
 
 [tool.flit.metadata]
-module = "nginx_log"
+module = "nginx_error_log"
 author = "Mads Marquart"
 author-email = "madsmtm@gmail.com"
-home-page = "https://github.com/madsmtm/nginx-log/"
+home-page = "https://github.com/madsmtm/nginx-error-log/"
 requires = [
     "dataclasses",
 ]
@@ -49,7 +49,7 @@ requires-python = "~=3.6"
 keywords = "Nginx Error Log Parser error_log"
 
 [tool.flit.metadata.urls]
-Repository = "https://github.com/madsmtm/nginx-log/"
+Repository = "https://github.com/madsmtm/nginx-error-log/"
 
 [tool.flit.metadata.requires-extra]
 test = [
