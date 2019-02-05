@@ -46,6 +46,7 @@ classifiers = [
     "Topic :: System :: Networking :: Monitoring",
 ]
 requires-python = "~=3.6"
+dist-name = "nginx-error-log"
 keywords = "Nginx Error Log Parser error_log"
 
 [tool.flit.metadata.urls]
