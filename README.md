@@ -22,4 +22,4 @@ pip install nginx-error-log
 
 
 ## License
-BSD 3-Clause, see `LICENSE.txt`.
+MIT, see `LICENSE.txt`.
