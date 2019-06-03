@@ -28,6 +28,7 @@ classifiers = [
     "Development Status :: 1 - Planning",
     "Intended Audience :: Developers",
     "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Natural Language :: English",
     "Programming Language :: Python",
@@ -48,6 +49,7 @@ classifiers = [
 requires-python = "~=3.6"
 dist-name = "nginx-error-log"
 keywords = "Nginx Error Log Parser error_log"
+license = "MIT"
 
 [tool.flit.metadata.urls]
 Repository = "https://github.com/madsmtm/nginx-error-log/"

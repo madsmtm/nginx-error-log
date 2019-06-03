@@ -8,3 +8,7 @@ This project provides a clean parsing of nginx error logs, produced by the
 [`error_log`](https://nginx.org/en/docs/ngx_core_module.html#error_log) directive (not
 access logs). The implementation is based on
 [this](https://stackoverflow.com/a/26125951) stackoverflow answer.
+
+
+## License
+BSD 3-Clause, see `LICENSE.txt`.
