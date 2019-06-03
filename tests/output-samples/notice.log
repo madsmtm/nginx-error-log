@@ -1,0 +1,248 @@
+2019/01/04 10:03:14 [notice] 7696#5492: using the "select" event method
+2019/01/04 10:03:14 [notice] 7696#5492: start worker processes
+2019/01/04 10:03:14 [notice] 7696#5492: start worker process 5356
+2019/01/04 10:03:14 [notice] 5356#7364: nginx/1.14.1
+2019/01/04 10:03:14 [notice] 5356#7364: create thread 9084
+2019/01/04 10:03:14 [notice] 5356#7364: create thread 8656
+2019/01/04 10:03:14 [notice] 5356#7364: create thread 9144
+2019/01/04 10:03:14 [notice] 7696#5492: worker process 4792 exited with code 0
+2019/01/04 10:05:06 [notice] 7696#5492: worker process 5356 exited with code 1
+2019/01/04 10:05:06 [notice] 7696#5492: start worker process 8700
+2019/01/04 10:05:07 [notice] 8700#412: nginx/1.14.1
+2019/01/04 10:05:07 [notice] 8700#412: create thread 6264
+2019/01/04 10:05:07 [notice] 8700#412: create thread 5724
+2019/01/04 10:05:07 [notice] 8700#412: create thread 6796
+2019/01/04 10:05:09 [notice] 7576#7152: using the "select" event method
+2019/01/04 10:05:09 [notice] 7576#7152: nginx/1.14.1
+2019/01/04 10:05:09 [notice] 7576#7152: start worker processes
+2019/01/04 10:05:09 [notice] 7576#7152: start worker process 6512
+2019/01/04 10:05:09 [notice] 6512#8780: nginx/1.14.1
+2019/01/04 10:05:09 [notice] 6512#8780: create thread 3380
+2019/01/04 10:05:09 [notice] 6512#8780: create thread 2972
+2019/01/04 10:05:09 [notice] 6512#8780: create thread 3612
+2019/01/04 10:05:11 [notice] 6640#7460: using the "select" event method
+2019/01/04 10:05:11 [notice] 6640#7460: nginx/1.14.1
+2019/01/04 10:05:11 [notice] 6640#7460: start worker processes
+2019/01/04 10:05:11 [notice] 6640#7460: start worker process 8380
+2019/01/04 10:05:11 [notice] 8380#7656: nginx/1.14.1
+2019/01/04 10:05:11 [notice] 8380#7656: create thread 7200
+2019/01/04 10:05:11 [notice] 8380#7656: create thread 7880
+2019/01/04 10:05:11 [notice] 8380#7656: create thread 5960
+2019/01/04 10:05:34 [notice] 6640#7460: exiting
+2019/01/04 10:05:34 [notice] 8380#7656: gracefully shutting down
+2019/01/04 10:05:34 [notice] 8380#7880: exiting
+2019/01/04 10:05:35 [notice] 8380#7200: exiting
+2019/01/04 10:05:35 [notice] 8380#7656: exit
+2019/01/04 10:05:35 [notice] 6640#7460: worker process 8380 exited with code 0
+2019/01/04 10:05:35 [notice] 6640#7460: exit
+2019/01/04 10:05:35 [notice] 4052#5488: using the "select" event method
+2019/01/04 10:05:35 [notice] 4052#5488: nginx/1.14.1
+2019/01/04 10:05:35 [notice] 4052#5488: start worker processes
+2019/01/04 10:05:35 [notice] 4052#5488: start worker process 6776
+2019/01/04 10:05:35 [notice] 6776#5936: nginx/1.14.1
+2019/01/04 10:05:35 [notice] 6776#5936: create thread 5028
+2019/01/04 10:05:35 [notice] 6776#5936: create thread 9164
+2019/01/04 10:05:35 [notice] 4052#5488: exiting
+2019/01/04 10:05:35 [notice] 6776#5936: create thread 2100
+2019/01/04 10:05:35 [notice] 6776#5936: gracefully shutting down
+2019/01/04 10:05:35 [notice] 6776#9164: exiting
+2019/01/04 10:05:35 [notice] 6776#5028: exiting
+2019/01/04 10:05:35 [notice] 6776#5936: exit
+2019/01/04 10:05:35 [notice] 4052#5488: worker process 6776 exited with code 0
+2019/01/04 10:05:35 [notice] 4052#5488: exit
+2019/01/04 10:05:37 [notice] 4168#4604: using the "select" event method
+2019/01/04 10:05:37 [notice] 4168#4604: nginx/1.14.1
+2019/01/04 10:05:37 [notice] 4168#4604: start worker processes
+2019/01/04 10:05:37 [notice] 4168#4604: start worker process 8140
+2019/01/04 10:05:37 [notice] 8140#7984: nginx/1.14.1
+2019/01/04 10:05:37 [notice] 8140#7984: create thread 7076
+2019/01/04 10:05:37 [notice] 8140#7984: create thread 7844
+2019/01/04 10:05:37 [notice] 8140#7984: create thread 5672
+2019/01/04 10:05:42 [notice] 5872#1364: using the "select" event method
+2019/01/04 10:05:42 [notice] 5872#1364: nginx/1.14.1
+2019/01/04 10:05:42 [notice] 5872#1364: start worker processes
+2019/01/04 10:05:42 [notice] 5872#1364: start worker process 3256
+2019/01/04 10:05:43 [notice] 3256#7680: nginx/1.14.1
+2019/01/04 10:05:43 [notice] 3256#7680: create thread 6348
+2019/01/04 10:05:43 [notice] 3256#7680: create thread 8360
+2019/01/04 10:05:43 [notice] 3256#7680: create thread 8548
+2019/01/04 10:05:51 [notice] 7784#2300: using the "select" event method
+2019/01/04 10:05:51 [notice] 7784#2300: nginx/1.14.1
+2019/01/04 10:05:51 [notice] 7784#2300: start worker processes
+2019/01/04 10:05:51 [notice] 7784#2300: start worker process 8900
+2019/01/04 10:05:51 [notice] 8900#6256: nginx/1.14.1
+2019/01/04 10:05:51 [notice] 8900#6256: create thread 736
+2019/01/04 10:05:51 [notice] 8900#6256: create thread 7612
+2019/01/04 10:05:51 [notice] 8900#6256: create thread 392
+2019/01/04 10:05:53 [notice] 7784#2300: worker process 8900 exited with code 1
+2019/01/04 10:05:53 [notice] 7784#2300: start worker process 7924
+2019/01/04 10:05:53 [notice] 7924#5280: nginx/1.14.1
+2019/01/04 10:05:53 [notice] 7924#5280: create thread 8084
+2019/01/04 10:05:53 [notice] 7924#5280: create thread 6704
+2019/01/04 10:05:53 [notice] 7924#5280: create thread 8540
+2019/01/04 10:06:02 [notice] 172#5128: using the "select" event method
+2019/01/04 10:06:02 [notice] 172#5128: nginx/1.14.1
+2019/01/04 10:06:02 [notice] 172#5128: start worker processes
+2019/01/04 10:06:02 [notice] 172#5128: start worker process 1480
+2019/01/04 10:06:03 [notice] 1480#7280: nginx/1.14.1
+2019/01/04 10:06:03 [notice] 1480#7280: create thread 6444
+2019/01/04 10:06:03 [notice] 1480#7280: create thread 7084
+2019/01/04 10:06:03 [notice] 1480#7280: create thread 8168
+2019/01/04 10:06:13 [notice] 7772#7828: using the "select" event method
+2019/01/04 10:06:13 [notice] 7772#7828: nginx/1.14.1
+2019/01/04 10:06:13 [notice] 7772#7828: start worker processes
+2019/01/04 10:06:13 [notice] 7772#7828: start worker process 8816
+2019/01/04 10:06:14 [notice] 8816#8040: nginx/1.14.1
+2019/01/04 10:06:14 [notice] 8816#8040: create thread 8836
+2019/01/04 10:06:14 [notice] 8816#8040: create thread 6108
+2019/01/04 10:06:14 [notice] 8816#8040: create thread 7768
+2019/01/04 10:06:21 [notice] 7772#7828: exiting
+2019/01/04 10:06:21 [notice] 8816#8040: gracefully shutting down
+2019/01/04 10:06:21 [notice] 8816#6108: exiting
+2019/01/04 10:06:22 [notice] 8816#8836: exiting
+2019/01/04 10:06:22 [notice] 8816#8040: exit
+2019/01/04 10:06:22 [notice] 7772#7828: worker process 8816 exited with code 0
+2019/01/04 10:06:22 [notice] 7772#7828: exit
+2019/01/04 10:06:22 [notice] 5584#9136: using the "select" event method
+2019/01/04 10:06:22 [notice] 5584#9136: nginx/1.14.1
+2019/01/04 10:06:22 [notice] 5584#9136: start worker processes
+2019/01/04 10:06:22 [notice] 5584#9136: start worker process 7728
+2019/01/04 10:06:22 [notice] 7728#6600: nginx/1.14.1
+2019/01/04 10:06:22 [notice] 7728#6600: create thread 6836
+2019/01/04 10:06:22 [notice] 7728#6600: create thread 9108
+2019/01/04 10:06:22 [notice] 7728#6600: create thread 1600
+2019/01/04 10:06:31 [notice] 4084#8536: using the "select" event method
+2019/01/04 10:06:31 [notice] 4084#8536: nginx/1.14.1
+2019/01/04 10:06:31 [notice] 4084#8536: start worker processes
+2019/01/04 10:06:31 [notice] 4084#8536: start worker process 6352
+2019/01/04 10:06:32 [notice] 6352#2892: nginx/1.14.1
+2019/01/04 10:06:32 [notice] 6352#2892: create thread 8908
+2019/01/04 10:06:32 [notice] 6352#2892: create thread 1132
+2019/01/04 10:06:32 [notice] 6352#2892: create thread 9080
+2019/01/11 22:28:41 [notice] 3040#3044: using the "select" event method
+2019/01/11 22:28:41 [notice] 3040#3044: nginx/1.14.1
+2019/01/11 22:28:41 [notice] 3040#3044: start worker processes
+2019/01/11 22:28:41 [notice] 3040#3044: start worker process 2748
+2019/01/11 22:28:42 [notice] 2748#2764: nginx/1.14.1
+2019/01/11 22:28:42 [notice] 2748#2764: create thread 2696
+2019/01/11 22:28:42 [notice] 2748#2764: create thread 2860
+2019/01/11 22:28:42 [notice] 2748#2764: create thread 2916
+2019/01/17 11:41:58 [notice] 5912#3220: using the "select" event method
+2019/01/17 11:41:58 [notice] 5912#3220: nginx/1.14.1
+2019/01/17 11:41:58 [notice] 5912#3220: start worker processes
+2019/01/17 11:41:58 [notice] 5912#3220: start worker process 5448
+2019/01/17 11:41:58 [notice] 5448#1820: nginx/1.14.1
+2019/01/17 11:41:58 [notice] 5448#1820: create thread 676
+2019/01/17 11:41:58 [notice] 5448#1820: create thread 5648
+2019/01/17 11:41:58 [notice] 5448#1820: create thread 5840
+2019/01/17 12:35:42 [notice] 4312#2760: using the "select" event method
+2019/01/17 12:35:42 [notice] 4312#2760: nginx/1.14.1
+2019/01/17 12:35:42 [notice] 4312#2760: start worker processes
+2019/01/17 12:35:42 [notice] 4312#2760: start worker process 1184
+2019/01/17 12:35:42 [notice] 1184#6176: nginx/1.14.1
+2019/01/17 12:35:42 [notice] 1184#6176: create thread 6544
+2019/01/17 12:35:42 [notice] 1184#6176: create thread 7472
+2019/01/17 12:35:42 [notice] 1184#6176: create thread 7800
+2019/01/17 12:37:07 [notice] 8036#2020: using the "select" event method
+2019/01/17 12:37:07 [notice] 8036#2020: nginx/1.14.1
+2019/01/17 12:37:07 [notice] 8036#2020: start worker processes
+2019/01/17 12:37:07 [notice] 8036#2020: start worker process 5680
+2019/01/17 12:37:07 [notice] 5680#8100: nginx/1.14.1
+2019/01/17 12:37:07 [notice] 5680#8100: create thread 7428
+2019/01/17 12:37:07 [notice] 5680#8100: create thread 7912
+2019/01/17 12:37:07 [notice] 5680#8100: create thread 7396
+2019/01/17 12:37:27 [notice] 7040#2200: using the "select" event method
+2019/01/17 12:37:27 [notice] 7040#2200: nginx/1.14.1
+2019/01/17 12:37:27 [notice] 7040#2200: start worker processes
+2019/01/17 12:37:27 [notice] 7040#2200: start worker process 7548
+2019/01/17 12:37:27 [notice] 7548#7352: nginx/1.14.1
+2019/01/17 12:37:27 [notice] 7548#7352: create thread 5092
+2019/01/17 12:37:27 [notice] 7548#7352: create thread 6312
+2019/01/17 12:37:27 [notice] 7548#7352: create thread 7432
+2019/01/17 12:37:57 [notice] 972#6712: using the "select" event method
+2019/01/17 12:37:57 [notice] 972#6712: nginx/1.14.1
+2019/01/17 12:37:57 [notice] 972#6712: start worker processes
+2019/01/17 12:37:57 [notice] 972#6712: start worker process 5748
+2019/01/17 12:37:57 [notice] 5748#7968: nginx/1.14.1
+2019/01/17 12:37:57 [notice] 5748#7968: create thread 7152
+2019/01/17 12:37:57 [notice] 5748#7968: create thread 2896
+2019/01/17 12:37:57 [notice] 5748#7968: create thread 6104
+2019/01/17 12:42:34 [notice] 5552#7692: using the "select" event method
+2019/01/17 12:42:34 [notice] 5552#7692: nginx/1.14.1
+2019/01/17 12:42:34 [notice] 5552#7692: start worker processes
+2019/01/17 12:42:34 [notice] 5552#7692: start worker process 5448
+2019/01/17 12:42:34 [notice] 5448#4088: nginx/1.14.1
+2019/01/17 12:42:34 [notice] 5448#4088: create thread 636
+2019/01/17 12:42:34 [notice] 5448#4088: create thread 7880
+2019/01/17 12:42:34 [notice] 5448#4088: create thread 8044
+2019/01/18 15:27:34 [notice] 7372#6596: using the "select" event method
+2019/01/18 15:27:34 [notice] 7372#6596: nginx/1.14.1
+2019/01/18 15:27:34 [notice] 7372#6596: start worker processes
+2019/01/18 15:27:34 [notice] 7372#6596: start worker process 7048
+2019/01/18 15:27:34 [notice] 7048#4968: nginx/1.14.1
+2019/01/18 15:27:34 [notice] 7048#4968: create thread 6900
+2019/01/18 15:27:34 [notice] 7048#4968: create thread 5812
+2019/01/18 15:27:34 [notice] 7048#4968: create thread 5900
+2019/02/01 16:18:58 [notice] 2788#8084: using the "select" event method
+2019/02/01 16:18:58 [notice] 2788#8084: nginx/1.14.1
+2019/02/01 16:18:58 [notice] 2788#8084: start worker processes
+2019/02/01 16:18:58 [notice] 2788#8084: start worker process 5484
+2019/02/01 16:18:58 [notice] 5484#6312: nginx/1.14.1
+2019/02/01 16:18:58 [notice] 5484#6312: create thread 8452
+2019/02/01 16:18:58 [notice] 5484#6312: create thread 4480
+2019/02/01 16:18:58 [notice] 5484#6312: create thread 6468
+2019/02/01 17:31:55 [notice] 6800#6400: using the "select" event method
+2019/02/01 17:31:55 [notice] 6800#6400: nginx/1.14.1
+2019/02/01 17:31:55 [notice] 6800#6400: start worker processes
+2019/02/01 17:31:55 [notice] 6800#6400: start worker process 9016
+2019/02/01 17:31:55 [notice] 9016#5476: nginx/1.14.1
+2019/02/01 17:31:55 [notice] 9016#5476: create thread 9100
+2019/02/01 17:31:55 [notice] 9016#5476: create thread 6976
+2019/02/01 17:31:55 [notice] 9016#5476: create thread 8668
+2019/02/01 17:52:26 [notice] 8084#2460: using the "select" event method
+2019/02/01 17:52:26 [notice] 8084#2460: nginx/1.14.1
+2019/02/01 17:52:26 [notice] 8084#2460: start worker processes
+2019/02/01 17:52:26 [notice] 8084#2460: start worker process 5988
+2019/02/01 17:52:26 [notice] 5988#8280: nginx/1.14.1
+2019/02/01 17:52:26 [notice] 5988#8280: create thread 8516
+2019/02/01 17:52:26 [notice] 5988#8280: create thread 8088
+2019/02/01 17:52:26 [notice] 5988#8280: create thread 9116
+2019/02/03 13:10:31 [notice] 4816#1112: using the "select" event method
+2019/02/03 13:10:31 [notice] 4816#1112: nginx/1.14.1
+2019/02/03 13:10:31 [notice] 4816#1112: start worker processes
+2019/02/03 13:10:31 [notice] 4816#1112: start worker process 5996
+2019/02/03 13:10:32 [notice] 5996#8856: nginx/1.14.1
+2019/02/03 13:10:32 [notice] 5996#8856: create thread 6064
+2019/02/03 13:10:32 [notice] 5996#8856: create thread 3868
+2019/02/03 13:10:32 [notice] 5996#8856: create thread 8228
+2019/02/03 14:02:59 [notice] 7496#6924: using the "select" event method
+2019/02/03 14:02:59 [notice] 7496#6924: nginx/1.14.1
+2019/02/03 14:02:59 [notice] 7496#6924: start worker processes
+2019/02/03 14:02:59 [notice] 7496#6924: start worker process 8436
+2019/02/03 14:03:00 [notice] 8436#2508: nginx/1.14.1
+2019/02/03 14:03:00 [notice] 8436#2508: create thread 7224
+2019/02/03 14:03:00 [notice] 8436#2508: create thread 7928
+2019/02/03 14:03:00 [notice] 8436#2508: create thread 3948
+2019/02/04 11:26:36 [notice] 6192#5912: using the "select" event method
+2019/02/04 11:26:36 [notice] 6192#5912: nginx/1.14.1
+2019/02/04 11:26:36 [notice] 6192#5912: start worker processes
+2019/02/04 11:26:36 [notice] 6192#5912: start worker process 1512
+2019/02/04 11:26:36 [notice] 1512#6080: nginx/1.14.1
+2019/02/04 11:26:36 [notice] 1512#6080: create thread 2588
+2019/02/04 11:26:36 [notice] 1512#6080: create thread 1756
+2019/02/04 11:26:36 [notice] 1512#6080: create thread 3868
+2019/02/04 11:30:01 [notice] 8828#6660: using the "select" event method
+2019/02/04 11:30:01 [notice] 8828#6660: nginx/1.14.1
+2019/02/04 11:30:01 [notice] 8828#6660: start worker processes
+2019/02/04 11:30:01 [notice] 8828#6660: start worker process 4964
+2019/02/04 11:30:02 [notice] 4964#7828: nginx/1.14.1
+2019/02/04 11:30:02 [notice] 4964#7828: create thread 7036
+2019/02/04 11:30:02 [notice] 4964#7828: create thread 940
+2019/02/04 11:30:02 [notice] 4964#7828: create thread 2848
+2019/01/04 14:58:36 [notice] 6352#8908: *1210 "^(.*)/index\.html$" does not match "/redacted/path?query_item", client: 12.34.56.78, server: [redacted], request: "GET /redacted/path?query_item HTTP/1.1", host: "[redacted]", referrer: "http://redacted/"
+2019/01/04 14:58:36 [notice] 6352#8908: *1216 "^(.*)/index\.html$" does not match "/redacted/path2", client: 12.34.56.78, server: [redacted], request: "GET /redacted/path2 HTTP/1.1", host: "[redacted]", referrer: "http://redacted/"
+2019/01/04 14:58:36 [notice] 6352#8908: *1215 "^(.*)/index\.html$" does not match "/redacted/path3", client: 12.34.56.78, server: [redacted], request: "GET /redacted/path3 HTTP/1.1", host: "[redacted]", referrer: "http://redacted/"
+2019/01/04 14:58:36 [notice] 6352#8908: *1210 "^(.*)/index\.html$" does not match "/redacted/path4", client: 12.34.56.78, server: [redacted], request: "GET /redacted/path4 HTTP/1.1", host: "[redacted]", referrer: "http://redacted/"
+2019/01/04 14:58:36 [notice] 6352#8908: *1209 "^(.*)/index\.html$" does not match "/redacted/path5?before=2019-01-14&after=2018-12-30", client: 12.34.56.78, server: [redacted], request: "GET /redacted/path5?before=2019-01-14&after=2018-12-30 HTTP/1.1", host: "[redacted]", referrer: "http://redacted/"
+2019/01/04 14:58:36 [notice] 6352#8908: *1207 "^(.*)/index\.html$" does not match "/some/other/path?after=2018-12-30&before=2019-01-14", client: 12.34.56.78, server: [redacted], request: "GET /some/other/path?after=2018-12-30&before=2019-01-14 HTTP/1.1", host: "[redacted]", referrer: "http://redacted/"
+2019/01/04 14:58:36 [notice] 6352#8908: *1208 "^(.*)/index\.html$" does not match "/some/url/path?query_parameter", client: 12.34.56.78, server: [redacted], request: "GET /some/url/path?query_parameter HTTP/1.1", host: "[redacted]", referrer: "http://redacted/"

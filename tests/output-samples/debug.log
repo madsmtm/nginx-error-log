@@ -1,0 +1,150 @@
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "Host: redacted"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "Connection: keep-alive"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "Accept: application/json"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "User-Agent: Mozilla/5.0 [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "Referer: http://redacted/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "Accept-Encoding: gzip, deflate"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "Accept-Language: en-US"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header: "Cookie: [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http header done
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 event timer del: 1020: 422149944
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 generic phase: 0
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 rewrite phase: 1
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 test location: "/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 test location: "static"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 using configuration "/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http cl:-1 max:1048576
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 rewrite phase: 3
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script var
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script var: "/some/url/path?query_parameter"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script regex: "^(.*)/index\.html$"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script if
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script if: false
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 post rewrite phase: 4
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 generic phase: 5
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 generic phase: 6
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 generic phase: 7
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 access phase: 8
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 access phase: 9
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 access phase: 10
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 post access phase: 11
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 generic phase: 12
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 generic phase: 13
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http init upstream, client timer: 0
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script copy: "Host"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script var: "[redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script copy: "Connection"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script copy: "close"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script copy: ""
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http script copy: ""
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http proxy header: "Accept: application/json"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http proxy header: "User-Agent: Mozilla/5.0 [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http proxy header: "Referer: http://redacted/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http proxy header: "Accept-Encoding: gzip, deflate"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http proxy header: "Accept-Language: en-US"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http proxy header: "Cookie: [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http proxy header:
+"GET /some/url/path?query_parameter HTTP/1.1
+Host: redacted
+Connection: close
+Accept: application/json
+User-Agent: Mozilla/5.0 [redacted]
+Referer: http://redacted/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: [redacted]
+
+"
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 malloc: 01651E50:4096
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http cleanup add: 01651E30
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 get rr peer, try: 2
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 get rr peer, current: 015F1EB8 -1
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 stream socket 1012
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 connect to 127.0.0.1:7000, fd:1012 #1211
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 select add event fd:1012 ev:0
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 select add event fd:1012 ev:1
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http upstream connect: -2
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 malloc: 0177ED18:128
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 event timer add: 1012: 60000:422149944
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http finalize request: -4, "/some/url/path?query_parameter" a:1, c:2
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 http request count:2 blk:0
+2019/01/04 14:58:36 [debug] 6352#8908: *1208 post event 0162F208
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "Host: redacted"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "Connection: keep-alive"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "Accept: application/json"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "User-Agent: Mozilla/5.0 [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "Referer: http://redacted/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "Accept-Encoding: gzip, deflate"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "Accept-Language: en-US"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header: "Cookie: [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http header done
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 event timer del: 1016: 422149944
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 generic phase: 0
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 rewrite phase: 1
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 test location: "/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 test location: "static"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 using configuration "/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http cl:-1 max:1048576
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 rewrite phase: 3
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script var
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script var: "/some/other/path?after=2018-12-30&before=2019-01-14"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script regex: "^(.*)/index\.html$"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script if
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script if: false
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 post rewrite phase: 4
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 generic phase: 5
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 generic phase: 6
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 generic phase: 7
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 access phase: 8
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 access phase: 9
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 access phase: 10
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 post access phase: 11
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 generic phase: 12
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 generic phase: 13
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http init upstream, client timer: 0
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script copy: "Host"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script var: "[redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script copy: "Connection"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script copy: "close"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script copy: ""
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http script copy: ""
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http proxy header: "Accept: application/json"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http proxy header: "User-Agent: Mozilla/5.0 [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http proxy header: "Referer: http://redacted/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http proxy header: "Accept-Encoding: gzip, deflate"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http proxy header: "Accept-Language: en-US"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http proxy header: "Cookie: [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http proxy header:
+"GET /some/other/path?after=2018-12-30&before=2019-01-14 HTTP/1.1
+Host: redacted
+Connection: close
+Accept: application/json
+User-Agent: Mozilla/5.0 [redacted]
+Referer: http://redacted/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US
+Cookie: [redacted]
+
+"
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 malloc: 01653E60:4096
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http cleanup add: 01653EA0
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 get rr peer, try: 2
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 get rr peer, current: 015F1F28 0
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 stream socket 940
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 connect to [::1]:7000, fd:940 #1212
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 select add event fd:940 ev:0
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 select add event fd:940 ev:1
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http upstream connect: -2
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 malloc: 0177EDA0:128
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 event timer add: 940: 60000:422149944
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http finalize request: -4, "/some/other/path?after=2018-12-30&before=2019-01-14" a:1, c:2
+2019/01/04 14:58:36 [debug] 6352#8908: *1207 http request count:2 blk:0
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "Host: redacted"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "Connection: keep-alive"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "Accept: application/json"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "User-Agent: Mozilla/5.0 [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "Referer: http://redacted/"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "Accept-Encoding: gzip, deflate"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "Accept-Language: en-US"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header: "Cookie: [redacted]"
+2019/01/04 14:58:36 [debug] 6352#8908: *1209 http header done
