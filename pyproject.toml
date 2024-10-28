@@ -12,8 +12,8 @@ exclude = '''
 '''
 
 [build-system]
-requires = ["flit"]
-build-backend = "flit.buildapi"
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
 module = "nginx_error_log"
